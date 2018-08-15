@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="views/modules/css/styles.css">
     <title>Template Plantilla</title>
 </head>
 <body>
@@ -12,14 +13,9 @@
     <h1>LOGOTIPO</h1>
     </header>
 
-<nav>
-    <ul>
-        <li><a href="">inicio</a></li>
-        <li><a href="">Nosotros</a></li>
-        <li><a href="">Servicios</a></li>
-        <li><a href="">Contactenos</a></li>
-    </ul>
-</nav>
+<?php
+    include "modules/navegacion.php";
+?>
 
 <section>PAGINA DE INICIO</section>
 
